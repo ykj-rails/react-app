@@ -1,5 +1,5 @@
 import React from 'react'
 
 export const Hello = () => {
-  return <p>Hello React!!</p>
+  return <h2>Hello React!!</h2>
 }
