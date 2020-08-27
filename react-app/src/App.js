@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Hello } from './Hello'
 import { Counter } from './counter'
+import { Toggle } from './toggle'
 
 export const App = () => {
   const message = 'HELLO'
@@ -35,6 +36,7 @@ export const App = () => {
         return <User name={profile.name} age={profile.age} key={index} />
       })}
       <Counter />
+      <Toggle />
     </React.Fragment>
   )
 }
